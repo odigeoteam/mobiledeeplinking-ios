@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "MobileDeepLinking-iOS"
-  s.version      = "0.3.0"
+  s.version      = "0.3.1"
   s.summary      = "Deeplinking is a methodology for launching a native mobile application via a link."
   s.description  = "Deeplinking connects a unique url to a defined action in a mobile app, seamlessly linking users to relevant content."
   s.homepage     = "http://www.edreamsodigeo.com/"
