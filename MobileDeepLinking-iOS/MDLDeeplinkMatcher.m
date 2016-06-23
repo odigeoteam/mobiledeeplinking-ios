@@ -22,7 +22,7 @@
 
 #import "MDLDeeplinkMatcher.h"
 #import "MDLError.h"
-
+#import "MDLConstants.h"
 
 @implementation MDLDeeplinkMatcher
 
