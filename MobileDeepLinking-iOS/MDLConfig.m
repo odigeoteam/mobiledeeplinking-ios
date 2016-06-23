@@ -22,7 +22,7 @@
 
 #import "MDLConfig.h"
 #import "MobileDeepLinking.h"
-
+#import "MDLConstants.h"
 
 @implementation MDLConfig
 {
