@@ -53,7 +53,7 @@
 		AABF8E10188F29BA00E35A09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AABF8E0E188F29BA00E35A09 /* InfoPlist.strings */; };
 		AABF8E12188F29BA00E35A09 /* MatchPathParameterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AABF8E11188F29BA00E35A09 /* MatchPathParameterTest.m */; };
 		AABF8E1C188F2AF700E35A09 /* MobileDeepLinking.h in Headers */ = {isa = PBXBuildFile; fileRef = AABF8DFA188F29B900E35A09 /* MobileDeepLinking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAC1D69E18983E5600D64003 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AAC1D69D18983E5600D64003 /* libPods.a */; };
+		AF6DC2A3C67F7971E0B47141 /* libPods-MobileDeepLinkingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF06D17F030E5F1F85969BD6 /* libPods-MobileDeepLinkingTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,7 +116,6 @@
 		5C593CEBC5A03D07AA40D5F0 /* MDLHandlerExecutor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDLHandlerExecutor.m; sourceTree = "<group>"; };
 		5C593D8622A2AEBB2AA59978 /* MDLConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDLConstants.m; sourceTree = "<group>"; };
 		5C593F1A244A8594687EACD8 /* MobileDeepLinking_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobileDeepLinking_Private.h; sourceTree = "<group>"; };
-		9EEB6824015A495E80B6F714 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA81F52918984FF000EE8862 /* MatchQueryParameterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchQueryParameterTest.m; sourceTree = "<group>"; };
 		AA81F52D1898500100EE8862 /* RegexValidationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexValidationTest.m; sourceTree = "<group>"; };
 		AA81F52F1898547800EE8862 /* ExecuteHandlersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExecuteHandlersTest.m; sourceTree = "<group>"; };
@@ -137,7 +136,9 @@
 		AABF8E11188F29BA00E35A09 /* MatchPathParameterTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchPathParameterTest.m; sourceTree = "<group>"; };
 		AABF8E6F188F2D3400E35A09 /* MobileDeepLinkingDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MobileDeepLinkingDemo.xcodeproj; path = MobileDeepLinkingDemo/MobileDeepLinkingDemo.xcodeproj; sourceTree = "<group>"; };
 		AAC1D69D18983E5600D64003 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
-		C7404A1DC1E84E8E918CE51B /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		BE9DACD42DEC265708DDCDF7 /* Pods-MobileDeepLinkingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileDeepLinkingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileDeepLinkingTests/Pods-MobileDeepLinkingTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF06D17F030E5F1F85969BD6 /* libPods-MobileDeepLinkingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MobileDeepLinkingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC101C0C9B16A428B699D7BA /* Pods-MobileDeepLinkingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileDeepLinkingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileDeepLinkingTests/Pods-MobileDeepLinkingTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,11 +154,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAC1D69E18983E5600D64003 /* libPods.a in Frameworks */,
 				AABF8E04188F29BA00E35A09 /* XCTest.framework in Frameworks */,
 				AABF8E07188F29BA00E35A09 /* UIKit.framework in Frameworks */,
 				AABF8E0A188F29BA00E35A09 /* libMobileDeepLinking.a in Frameworks */,
 				AABF8E05188F29BA00E35A09 /* Foundation.framework in Frameworks */,
+				AF6DC2A3C67F7971E0B47141 /* libPods-MobileDeepLinkingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,7 +173,7 @@
 				AABF8DF4188F29B900E35A09 /* Frameworks */,
 				AABF8DF3188F29B900E35A09 /* Products */,
 				AABF8E6F188F2D3400E35A09 /* MobileDeepLinkingDemo.xcodeproj */,
-				C7404A1DC1E84E8E918CE51B /* Pods.xcconfig */,
+				C3EB06EEADAC3F6219DCE0EA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -193,7 +194,7 @@
 				AABF8DF5188F29B900E35A09 /* Foundation.framework */,
 				AABF8E03188F29BA00E35A09 /* XCTest.framework */,
 				AABF8E06188F29BA00E35A09 /* UIKit.framework */,
-				9EEB6824015A495E80B6F714 /* libPods.a */,
+				CF06D17F030E5F1F85969BD6 /* libPods-MobileDeepLinkingTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -266,6 +267,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C3EB06EEADAC3F6219DCE0EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC101C0C9B16A428B699D7BA /* Pods-MobileDeepLinkingTests.debug.xcconfig */,
+				BE9DACD42DEC265708DDCDF7 /* Pods-MobileDeepLinkingTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -292,13 +302,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AABF8E15188F29BA00E35A09 /* Build configuration list for PBXNativeTarget "MobileDeepLinking" */;
 			buildPhases = (
-				0C4D215A1AC44BF79D1B44BE /* Check Pods Manifest.lock */,
 				AABF8DEE188F29B900E35A09 /* Sources */,
 				AABF8DEF188F29B900E35A09 /* Frameworks */,
 				AABF8DF0188F29B900E35A09 /* CopyFiles */,
 				AABF8E1B188F2AE900E35A09 /* Headers */,
 				AABF8E1D188F2BE300E35A09 /* Prepare Framework */,
-				DFFF4D9F70DC4EB0BD224010 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -313,10 +321,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AABF8E18188F29BA00E35A09 /* Build configuration list for PBXNativeTarget "MobileDeepLinkingTests" */;
 			buildPhases = (
-				5E22128E7C1743A2AAD8F0F3 /* Check Pods Manifest.lock */,
+				4DCEC95F6A7D05574B922C3B /* [CP] Check Pods Manifest.lock */,
 				AABF8DFE188F29BA00E35A09 /* Sources */,
 				AABF8DFF188F29BA00E35A09 /* Frameworks */,
 				AABF8E00188F29BA00E35A09 /* Resources */,
+				BD3F7536CEDD438916F43DC2 /* [CP] Embed Pods Frameworks */,
+				E2F25F503CC232FD51207468 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -397,29 +407,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C4D215A1AC44BF79D1B44BE /* Check Pods Manifest.lock */ = {
+		4DCEC95F6A7D05574B922C3B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		5E22128E7C1743A2AAD8F0F3 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,19 +450,34 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n# Build the other platform.\nxcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nlipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n";
 		};
-		DFFF4D9F70DC4EB0BD224010 /* Copy Pods Resources */ = {
+		BD3F7536CEDD438916F43DC2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileDeepLinkingTests/Pods-MobileDeepLinkingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2F25F503CC232FD51207468 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileDeepLinkingTests/Pods-MobileDeepLinkingTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -598,7 +608,6 @@
 		};
 		AABF8E16188F29BA00E35A09 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7404A1DC1E84E8E918CE51B /* Pods.xcconfig */;
 			buildSettings = {
 				DEAD_CODE_STRIPPING = NO;
 				DSTROOT = /tmp/MobileDeepLinking_iOS.dst;
@@ -615,7 +624,6 @@
 		};
 		AABF8E17188F29BA00E35A09 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7404A1DC1E84E8E918CE51B /* Pods.xcconfig */;
 			buildSettings = {
 				DEAD_CODE_STRIPPING = NO;
 				DSTROOT = /tmp/MobileDeepLinking_iOS.dst;
@@ -632,7 +640,7 @@
 		};
 		AABF8E19188F29BA00E35A09 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7404A1DC1E84E8E918CE51B /* Pods.xcconfig */;
+			baseConfigurationReference = EC101C0C9B16A428B699D7BA /* Pods-MobileDeepLinkingTests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -657,7 +665,7 @@
 		};
 		AABF8E1A188F29BA00E35A09 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7404A1DC1E84E8E918CE51B /* Pods.xcconfig */;
+			baseConfigurationReference = BE9DACD42DEC265708DDCDF7 /* Pods-MobileDeepLinkingTests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
