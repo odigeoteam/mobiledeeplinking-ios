@@ -28,3 +28,4 @@
 + (void)setError:(NSError **)error withMessage:(NSString *)message;
 
 @end
+

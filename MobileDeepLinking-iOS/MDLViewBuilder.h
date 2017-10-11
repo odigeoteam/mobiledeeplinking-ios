@@ -35,3 +35,4 @@
 + (BOOL)setPropertiesOnViewController:(UIViewController *)viewController routeParams:(NSDictionary *)routeParams config:(MDLConfig *)config;
 
 @end
+
